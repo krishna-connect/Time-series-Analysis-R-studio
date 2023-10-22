@@ -7,7 +7,7 @@ author: "Krishna Patel"
 
 # 1. Loading libraries
 ```{r}
-setwd("G:/Laptop/Books and imp/Ahmedabad University/College Work/SEM 9/Econometrics/Project")
+setwd("")
 
 library(fBasics)
 library(quantmod)
@@ -17,7 +17,7 @@ library(fUnitRoots)
 
 # 2. Exploring the data
 ```{r}
-crude_oil12 <- read.delim("G:/Laptop/Books and imp/Ahmedabad University/College Work/SEM 9/Econometrics/Project/crudeoil1.txt")
+crude_oil12 <- read.delim("/crudeoil1.txt")
 
 head(crude_oil12)
 tail(crude_oil12)
